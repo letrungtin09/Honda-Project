@@ -1,0 +1,10 @@
+@mixin arrow($left, $right){
+    content: "";
+    border-bottom: 15px solid $color-white;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: absolute;
+    top: -14px;
+    left: $left;
+    right: $right;
+}
